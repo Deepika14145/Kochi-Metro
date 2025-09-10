@@ -27,7 +27,6 @@ An integrated, algorithm-driven decision-support platform for Kochi Metro to opt
 The project is organized into a modular structure to promote maintainability and scalability.
 
 ├── public/  
-
 ├── src/  
 
 │   ├── components/        → Reusable React components (e.g., TrainCard, Header)  
