@@ -26,20 +26,31 @@ An integrated, algorithm-driven decision-support platform for Kochi Metro to opt
 
 The project is organized into a modular structure to promote maintainability and scalability.
 
-/
-├── public/
-├── src/
-│ ├── components/
-│ ├── config/
-│ ├── data/
-│ ├── services/
-│ ├── types/
-│ ├── utils/
-│ ├── App.tsx
-│ └── index.tsx
-├── index.html
-├── package.json
-└── README.md
+├── public/  
+
+├── src/  
+
+│   ├── components/        → Reusable React components (e.g., TrainCard, Header)  
+
+│   ├── config/            → Default application configurations (e.g., AI rules)  
+
+│   ├── data/              → Mock data generation logic  
+
+│   ├── services/          → API clients and services (e.g., geminiService.ts)  
+
+│   ├── types/             → TypeScript type definitions  
+
+│   ├── utils/             → Utility functions (e.g., CSV parsing/conversion)  
+
+│   ├── App.tsx            → Main application component with routing logic  
+
+│   └── index.tsx          → Application entry point  
+
+├── index.html             → Main HTML file  
+
+├── package.json           → Project dependencies and scripts  
+
+└── README.md              → This file  
 
 ## 5. Getting Started
 
